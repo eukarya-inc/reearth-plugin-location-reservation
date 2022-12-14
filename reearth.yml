@@ -5,6 +5,7 @@ extensions:
   - id: sidebar
     type: widget
     name: Location Reservation
+    singleOnly: true
     schema:
       groups:
         - id: customize
