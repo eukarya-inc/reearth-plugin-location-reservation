@@ -149,7 +149,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     width: 100%;
     height: 100%;
   }
-\`,T=React.memo(sn),un=({handleDownloadClick:e})=>l(We,{children:g(fn,{children:[l(antd.Button,{href:"https://marketplace.reearth.io/plugins/reearth-plugin-location-reservation",target:"_blank",children:g(pn,{children:[l(T,{icon:"question",size:16}),l("span",{style:{lineHeight:"22px"},children:"Read me"})]})}),g(antd.Button,{onClick:e,style:{display:"flex",alignItems:"center",justifyContent:"center",gap:"8px"},children:[l(T,{icon:"map",size:16}),l("span",{children:"\\u5730\\u56F3\\u753B\\u9762\\u306E\\u30C0\\u30A6\\u30F3\\u30ED\\u30FC\\u30C9"})]})]})}),fn=b.div\`
+\`,T=React.memo(sn),un=({handleDownloadClick:e})=>l(We,{children:g(fn,{children:[l(antd.Button,{href:"https://marketplace.reearth.io/plugins/reearth-plugin-location-reservation",target:"_blank",style:{padding:"0 10px"},children:g(pn,{children:[l(T,{icon:"question",size:16}),l("span",{style:{lineHeight:"22px"},children:"Read me"})]})}),g(antd.Button,{onClick:e,style:{display:"flex",alignItems:"center",justifyContent:"center",gap:"8px",padding:"0 10px"},children:[l(T,{icon:"map",size:16}),l("span",{children:"\\u5730\\u56F3\\u753B\\u9762\\u306E\\u30C0\\u30A6\\u30F3\\u30ED\\u30FC\\u30C9"})]})]})}),fn=b.div\`
   display: flex;
   align-items: center;
   justify-content: right;
