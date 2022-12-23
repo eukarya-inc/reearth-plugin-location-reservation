@@ -2,7 +2,7 @@
 
 このプラグインは、場所の予約申請をするためのプラグインです。
 このプラグインは 2 つの機能を持っています：
-1 つは、描画ツール：地図上に任意の位置に円を描いたり、3D モデルを配置したり、画面に表示された地図のスクリーンキャプチャを取ったりすることができます。
+1 つは、描画ツール：地図上に任意の位置に円の描画・3D モデルの配置・ラベルを追加や、画面に表示された地図のスクリーンキャプチャを取ったりすることができます。
 2 つ目は、申請フォーム：既存の申請フォームを埋め込むことができます。
 
 ## 利用の流れ
@@ -22,10 +22,10 @@
 
 - title: ヘッダーに表示するタイトルを入力します。
 - Iframe URL: ウィジェットに埋め込むフォームの URL を指定します。未入力の場合、フォームタブは非表示になります。
-- 3Dmodel: クリック時に配置する 3D モデルを指定します。指定しない場合は、キッチンカーのモデルが配置されます。
+- 3Dmodel: クリック時に配置する 3D モデルを指定します。指定しない場合は、上記画像の 3D モデルが配置されます。
 - 3Dmodel scale: 配置する 3D モデルの大きさのスケーリングファクターを指定します。デフォルトは 1 です。
 - Theme color: ウィジェットボタンの色を指定します。設定しない場合は#00BEBE となります。
-- Area color: Add Area で配置するエリアのカラーを指定します。未設定の場合、#00FF38 になります。
+- Area color: Add Area で配置するエリアのカラーを指定します。未設定の場合、#00FF3880 になります。
 
 ## 注意
 
@@ -35,7 +35,7 @@
 
 This is the plugin to register location.
 This plugin has two features:
-One is a drawing tool： Drawing a circle at any location or placing 3D model on the map and taking a screen capture of the map shown on the screen.
+One is a drawing tool： Drawing a circle at any location, placing 3D model on the map, adding a label and taking a screen capture of the map shown on the screen.
 Two is application form：to embed the existing application form.
 
 ## Use flow:
@@ -55,10 +55,10 @@ Two is application form：to embed the existing application form.
 
 - Title: Enter the title to be displayed in the header.
 - Iframe URL: Specify the URL of the form to be embedded in the widget. If not entered, the form tab will be hidden.
-- 3D model： Specify the 3D model to be placed on click. If not specified, a kitchen car model will be placed.
+- 3D model： Specify the 3D model to be placed on click. If not specified, a model on the image above will be placed.
 - 3D model scale： Specify the scaling factor of the size of the 3D model to be placed. The default is 1.
 - Theme color: Specify the color of the widget buttons. If not set, it will be #00BEBE.
-- Area Color: Specify the color of the area to be placed by Add Area. If not set, it will be #00FF38.
+- Area Color: Specify the color of the area to be placed by Add Area. If not set, it will be #00FF3880.
 
 ## Caution
 
