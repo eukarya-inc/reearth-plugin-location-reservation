@@ -91,7 +91,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     width: 100%;
     height: 100%;
   }
-\`,j=React.memo(ln),sn=({handleDownloadClick:e})=>i($e,{children:h(un,{children:[i(antd.Button,{onClick:e,href:"https://marketplace.reearth.io/plugins/reearth-plugin-location-reservation",target:"_blank",children:h(dn,{children:[i(j,{icon:"question",size:16}),i("span",{style:{lineHeight:"22px"},children:"Read me"})]})}),h(antd.Button,{onClick:e,style:{display:"flex",alignItems:"center",justifyContent:"center",gap:"8px"},children:[i(j,{icon:"map",size:16}),i("span",{children:"Download Map"})]})]})}),un=m.div\`
+\`,j=React.memo(ln),sn=({handleDownloadClick:e})=>i($e,{children:h(un,{children:[i(antd.Button,{href:"https://marketplace.reearth.io/plugins/reearth-plugin-location-reservation",target:"_blank",children:h(dn,{children:[i(j,{icon:"question",size:16}),i("span",{style:{lineHeight:"22px"},children:"Read me"})]})}),h(antd.Button,{onClick:e,style:{display:"flex",alignItems:"center",justifyContent:"center",gap:"8px"},children:[i(j,{icon:"map",size:16}),i("span",{children:"Download Map"})]})]})}),un=m.div\`
   display: flex;
   align-items: center;
   justify-content: right;
