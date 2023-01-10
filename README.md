@@ -66,7 +66,9 @@
 - 申し込みフォームを埋め込む場合は、あらかじめフォームを作成しておく必要があります。(Google フォーム、Forms by Microsoft など)
 - 編集ページにおいて右パネルで設定を変更を行なった場合は、一度ページをリフレッシュしないと変更が反映されません。右パネルで設定を変更した場合は一度ページを更新してください。
 
-<!-- # Location Reservation plugin
+
+
+# Location Reservation plugin
 
 This is the plugin to register location.
 This plugin has two features:
@@ -97,4 +99,4 @@ Two is application form：to embed the existing application form.
 
 - If you want to embed the apply form, you need to make an application form first with some tools. (eg, Google form, Forms by Microsoft, etc.)
 - If you change settings in the right panel on the edit page, you must refresh the page once for the changes to take effect. Please refresh the page once when you change the settings in the right panel.
-- The image saved by the "Download button on the map screen" does not include the contents of infoboxes and widgets. -->
+- The image saved by the "Download button on the map screen" does not include the contents of infoboxes and widgets. 
