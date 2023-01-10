@@ -1,32 +1,51 @@
 # 場所の予約申請ウィジェット
 
 このプラグインは、場所の予約申請をするためのプラグインです。
-このプラグインは 2 つの機能を持っています：
-1 つは、描画ツール：地図上に任意の位置に円の描画・3D モデルの配置・ラベルを追加や、画面に表示された地図のスクリーンキャプチャを取ったりすることができます。
-2 つ目は、申請フォーム：既存の申請フォームを埋め込むことができます。
+このプラグインは、地図上に任意の位置に円の描画・3D モデルの配置・ラベルを追加や、画面に表示された地図のスクリーンキャプチャを取ったりすることができます。
+また、既存の申請フォームを埋め込むことが可能なので、上記でスクリーンキャプチャした画像を用いて、そのまま申請フォームへ回答することが可能です。
+（※申請フォームを設定しないで使用することも可能です）
 
-### 編集ページでできること
+## 各機能について
+
+1. エリアの指定：描画ツールタブ内「エリアを追加する」ボタンで、**地図上の任意の場所に円を描画し指定**
+2. 3D モデルの追加：描画ツールタブ内「3D モデルを追加する」ボタンで、**地図上の任意の場所に 3D モデルを追加**
+3. テキストを追加：描画ツールタブ内「テキストを追加する」ボタンで、**地図上の任意の場所にテキストを追加**
+4. 画面キャプチャ：描画ツールタブ内「地図画面のダウンロード」ボタンで、**画面キャプチャを取りダウンロード**
+5. フォーム申請：申し込みフォームタブで、既存のフォームの表示（※編集画面で Iframe URL を設定した場合）
+
+## 各機能の利用方法
+
+### 1. エリアの指定
+
+1. 「エリアの追加」ボタンをクリック
+2. 地図上の任意の位置をクリック
+   （※2. 3D モデルの追加も同様）
+
+#### 指定エリアのサイズ変更
+
+1. 円追加時に左サイドバーに出てきたアイテムの、スライダーを調整する
+
+#### 指定エリアの削除
+
+1. 追加したエリアを削除する場合はゴミ箱アイコンをクリック
+
+### 3. テキストの追加
+
+2 まではエリアの指定方法と同様 3. テキスト追加時にに左サイドバーに出てきたアイテムの、入力フォームに任意のテキストを入力する
+
+### 4. 画面キャプチャ
+
+1. 画面キャプチャを取りたい任意の位置に移動
+2. 「地図画面のダウンロード」をクリック
+   　 → 使用端末のダウンロードフォルダに画面キャプチャがダウンロードされます
+   （※「地図画面のダウンロードボタン」で保存される画像には、インフォボックスやウィジェットの内容は含まれません。）
+
+### フォーム申請
 
 1. 必須項目を設定した申請フォームを用意する。(このプラグインを有効に使うには、画像項目が必要です。）
-2. フォームのリンク先をプラグインの Iframe URL プロパティに設定する。(設定可能なプロパティは以下の通りです。）
+2. フォームのリンク先をプラグインの Iframe URL プロパティに設定
 
-### 公開ページでできること
-
-1. 描画ツールタブで、地図上の使用したい場所に円を描画する。
-2. 同じタブ内の「地図のダウンロード」ボタンで、画面キャプチャを取る。
-3. 上記でダウンロードした画像を使ってフォームに申請する。
-
-<!-- #### 各機能の利用方法
-円の描画方法
-2. 「エリアの追加」ボタンをクリック
-3. 地図上の任意の位置をクリック
-
-円のサイズ変更方法
-1. 円追加時に
-2. 半径のスライドバーを操作するとエリアの大きさを変更することができます。
-3. 追加したエリアを削除する場合はゴミ箱アイコンをクリックしてください。 -->
-
-## 設定可能な項目
+## 編集画面で設定可能な項目
 
 - title: ヘッダーに表示するタイトルを入力します。
 - Iframe URL: ウィジェットに埋め込むフォームの URL を指定します。未入力の場合、フォームタブは非表示になります。
@@ -37,18 +56,16 @@
 
 ## 注意
 
-- 申し込みフォームを埋め込みたい場合は、あらかじめフォームを作成しておく必要があります。(Google フォーム、Forms by Microsoft など)
+- このプラグインを有効に活用していただくには、申込フォームを設定をオススメします
+- 申し込みフォームを埋め込む場合は、あらかじめフォームを作成しておく必要があります。(Google フォーム、Forms by Microsoft など)
 - 編集ページにおいて右パネルで設定を変更を行なった場合は、一度ページをリフレッシュしないと変更が反映されません。右パネルで設定を変更した場合は一度ページを更新してください。
-- 「地図画面のダウンロードボタン」で保存される画像には、インフォボックスやウィジェットの内容は含まれません。
 
-# Location Reservation plugin
+<!-- # Location Reservation plugin
 
 This is the plugin to register location.
 This plugin has two features:
 One is a drawing tool： Drawing a circle at any location, placing 3D model on the map, adding a label and taking a screen capture of the map shown on the screen.
 Two is application form：to embed the existing application form.
-
-## Use flow:
 
 ### What you can do on the edit page
 
@@ -74,4 +91,4 @@ Two is application form：to embed the existing application form.
 
 - If you want to embed the apply form, you need to make an application form first with some tools. (eg, Google form, Forms by Microsoft, etc.)
 - If you change settings in the right panel on the edit page, you must refresh the page once for the changes to take effect. Please refresh the page once when you change the settings in the right panel.
-- The image saved by the "Download button on the map screen" does not include the contents of infoboxes and widgets.
+- The image saved by the "Download button on the map screen" does not include the contents of infoboxes and widgets. -->
