@@ -20,7 +20,7 @@
 5. フォームの表示：  
 申し込みフォームタブで、既存のフォームの表示（※編集画面で Iframe URL を設定した場合）
 
-    ![](https://eukarya-inc.github.io/reearth-plugin-location-reservation/main/src/img1.png)
+![](https://eukarya-inc.github.io/reearth-plugin-location-reservation/main/src/img1.png)
 
 ### 各機能の利用方法
 
@@ -37,7 +37,7 @@ b. 地図上の任意の位置をクリック
 
 - 追加したエリアを削除する場合はゴミ箱アイコンをクリック
 
-    ![](https://eukarya-inc.github.io/reearth-plugin-location-reservation/blob/main/src/img2.png)
+![](https://eukarya-inc.github.io/reearth-plugin-location-reservation/blob/main/src/img2.png)
 
 #### 2. 3Dモデルを追加する
 
@@ -60,7 +60,7 @@ a. 画面キャプチャを取りたい任意の位置に移動
 b. 「地図画面のダウンロード」をクリック。使用端末のダウンロードフォルダに画面キャプチャがダウンロードされます  
    （※「地図画面のダウンロードボタン」で保存される画像には、インフォボックスやウィジェットの内容は含まれません）
    
-   ![](https://eukarya-inc.github.io/reearth-plugin-location-reservation/blob/main/src/img5.png)
+![](https://eukarya-inc.github.io/reearth-plugin-location-reservation/blob/main/src/img5.png)
 
 #### 5.フォームの表示
 
