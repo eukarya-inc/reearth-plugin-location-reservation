@@ -1,10 +1,22 @@
 # 場所の予約申請ウィジェット
 
+## このプラグインについて
 このプラグインは、場所の予約申請をするためのプラグインです。
 このプラグインは、地図上に任意の位置に円の描画・3D モデルの配置・ラベルを追加や、画面に表示された地図のスクリーンキャプチャを取ったりすることができます。
 また、既存の申請フォームを埋め込むことが可能なので、上記でスクリーンキャプチャした画像を用いて、そのまま申請フォームへ回答することが可能です。
 
 （※申請フォームを設定しないで使用することも可能です）
+
+
+## 使用方法
+### ウィジェット編集画面で設定可能な項目
+
+- title: ヘッダーに表示するタイトルを入力します。
+- Iframe URL: ウィジェットに埋め込むフォームの URL を指定します。未入力の場合、フォームタブは非表示になります
+- 3Dmodel: クリック時に配置する 3D モデルを指定します。指定しない場合は、上記画像の 3D モデルが配置されます
+- 3Dmodel scale: 配置する 3D モデルの大きさのスケーリングファクターを指定します。デフォルトは 1 です
+- Theme color: ウィジェットボタンの色を指定します。設定しない場合は#00BEBE となります
+- Area color: Add Area で配置するエリアのカラーを指定します。未設定の場合、#00FF3880 になります
 
 
 ### 各機能について
@@ -69,14 +81,6 @@ b. 右パネルのウィジェット編集画面からフォームのリンク�
 
 ![](https://eukarya-inc.github.io/reearth-plugin-location-reservation/src/img6.png)
 
-### ウィジェット編集画面で設定可能な項目
-
-- title: ヘッダーに表示するタイトルを入力します。
-- Iframe URL: ウィジェットに埋め込むフォームの URL を指定します。未入力の場合、フォームタブは非表示になります
-- 3Dmodel: クリック時に配置する 3D モデルを指定します。指定しない場合は、上記画像の 3D モデルが配置されます
-- 3Dmodel scale: 配置する 3D モデルの大きさのスケーリングファクターを指定します。デフォルトは 1 です
-- Theme color: ウィジェットボタンの色を指定します。設定しない場合は#00BEBE となります
-- Area color: Add Area で配置するエリアのカラーを指定します。未設定の場合、#00FF3880 になります
 
 ### 留意点
 
@@ -118,23 +122,14 @@ b. 右パネルのウィジェット編集画面からフォームのリンク�
 
 # Location Reservation plugin
 
+## About this
 This is the plugin to register location.
 This plugin has two features:
 One is a drawing tool： Drawing a circle at any location, placing 3D model on the map, adding a label and taking a screen capture of the map shown on the screen.
 Two is application form：to embed the existing application form.
 
-### What you can do on the edit page
-
-1. Prepare to apply a form that is set the required item. (make this plugin useful, an image item is required)
-2. Set the form link to the plugin Iframe URL property. (More settable properties are below)
-
-### User
-
-1. Draw the circle on a map where the user wants to use with the drawing tool tab.
-2. Take a screen capture with the "Download map" button on the same tab.
-3. User applies to a form using the image downloaded above.
-
-## What you can do on the public page
+## How to use
+### What you can do on the Editor page
 
 - Title: Enter the title to be displayed in the header.
 - Iframe URL: Specify the URL of the form to be embedded in the widget. If not entered, the form tab will be hidden.
@@ -142,6 +137,21 @@ Two is application form：to embed the existing application form.
 - 3D model scale： Specify the scaling factor of the size of the 3D model to be placed. The default is 1.
 - Theme color: Specify the color of the widget buttons. If not set, it will be #00BEBE.
 - Area Color: Specify the color of the area to be placed by Add Area. If not set, it will be #00FF3880.
+  
+
+### About each function
+
+1. Draw area
+2. Draw 3D model
+3. Draw Text
+4. Download image
+5. form (when you have entered the Iframe URL on Editor page)
+
+![](https://eukarya-inc.github.io/reearth-plugin-location-reservation/src/img1.png)
+
+
+
+
 
 ## Caution
 
