@@ -178,7 +178,7 @@ This plug-in has been tested on the following OS and browsers.
 
 This plugin is an official Re:Earth plugin.
 
- ! [](https://eukarya-inc.github.io/reearth-plugin-shinsuiNavi/src/logo-3.png)
+ ![](https://eukarya-inc.github.io/reearth-plugin-shinsuiNavi/src/logo-3.png)
 
 Source code is here (https://github.com/eukarya-inc/reearth-plugin-location-reservation)
 
