@@ -158,3 +158,34 @@ Two is application form：to embed the existing application form.
 - If you want to embed the apply form, you need to make an application form first with some tools. (eg, Google form, Forms by Microsoft, etc.)
 - If you change settings in the right panel on the edit page, you must refresh the page once for the changes to take effect. Please refresh the page once when you change the settings in the right panel.
 - The image saved by the "Download button on the map screen" does not include the contents of infoboxes and widgets. 
+
+## Notes
+
+This plug-in has been tested on the following OS and browsers.
+
+- OS
+  - Mac OS
+
+- Browser
+  - Chrome: 107.0.5304.110
+  - Safari: 16.0 (17614.1.25.9.10, 17614)
+  - FireFox: 107.0
+  - Edge: 107.0.1418.56
+
+
+
+## Developer
+
+This plugin is an official Re:Earth plugin.
+
+ ! [](https://eukarya-inc.github.io/reearth-plugin-shinsuiNavi/src/logo-3.png)
+
+Source code is here (https://github.com/eukarya-inc/reearth-plugin-location-reservation)
+
+- Community
+
+  - Share your projects using this plugin with our user community.
+
+  - If you have any questions about this plugin, you can also ask the Re:Earth team or other developers here.
+
+  - The link to the Discord is here (https://discord.gg/BXcQhvwqqM)
